@@ -26,4 +26,4 @@ jobs:
           artifactErrorsFailBuild: true
           body: ${{ steps.build.outputs.changelog-entry }}
           prerelease: ${{ steps.build.outputs.prerelease == 'true' }}
-          skipIfReleaseExists: true
+          allowUpdates: true
