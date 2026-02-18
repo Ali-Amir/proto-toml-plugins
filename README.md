@@ -5,7 +5,7 @@ A WASM plugin for [moonrepo/proto](https://github.com/moonrepo/proto) that insta
 ## Installation
 
 ```
-proto add-plugin buf "source:https://github.com/Ali-Amir/proto-toml-plugins/releases/download/buf_proto_plugin/v0.1.0/buf_proto_plugin.wasm"
+proto add-plugin buf "source:https://github.com/Ali-Amir/buf-proto-plugin/releases/download/buf_proto_plugin/v0.1.0/buf_proto_plugin.wasm"
 proto install buf
 ```
 
